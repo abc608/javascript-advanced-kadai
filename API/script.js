@@ -1,5 +1,5 @@
 // const weatherSection = document.querySelector('.weather-data');
-// const apiKey = 'cd3609c2c55054769bce3cfbc013789c'; 
+// const apiKey = ''; 
 
 // const cities = [
 //   { name: 'Tokyo', id: 'tokyo' },
@@ -82,4 +82,5 @@ window.addEventListener('DOMContentLoaded', () => {
   cities.forEach(city => {
     fetchWeather(city.name, city.id);
   });
+
 });
